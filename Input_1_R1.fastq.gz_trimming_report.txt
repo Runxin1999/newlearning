@@ -1,0 +1,106 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /projects/b1042/ChengSYLab/runxin/20260324/CUTRUN_positive/1_fastq/Input_1_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.2
+Python version: 3.9.9
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 3603). Second best hit was Nextera (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 15 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 5.2 with Python 3.9.9
+Command line parameters: -j 4 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /projects/b1042/ChengSYLab/runxin/20260324/CUTRUN_positive/1_fastq/Input_1_R1.fastq.gz
+Processing single-end reads on 4 cores ...
+
+=== Summary ===
+
+Total reads processed:             427,967,363
+Reads with adapters:               167,603,100 (39.2%)
+Reads written (passing filters):   427,967,363 (100.0%)
+
+Total basepairs processed: 21,398,368,150 bp
+Quality-trimmed:              59,979,233 bp (0.3%)
+Total written (filtered):  20,067,933,407 bp (93.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 167603100 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 26.7%
+  C: 26.0%
+  G: 16.9%
+  T: 17.3%
+  none/other: 13.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	101590784	106991840.8	0	101590784
+2	29838719	26747960.2	0	29838719
+3	8960896	6686990.0	0	8960896
+4	2140337	1671747.5	0	2140337
+5	683088	417936.9	0	683088
+6	348557	104484.2	0	348557
+7	287336	26121.1	0	287336
+8	258486	6530.3	0	258486
+9	242241	1632.6	0	235059 7182
+10	225299	408.1	1	211484 13815
+11	199707	102.0	1	190317 9390
+12	179921	25.5	1	173202 6719
+13	162398	6.4	1	156119 6279
+14	146179	6.4	1	140648 5531
+15	132760	6.4	1	127644 5116
+16	115597	6.4	1	110726 4871
+17	101427	6.4	1	96798 4629
+18	89479	6.4	1	84720 4759
+19	79432	6.4	1	75424 4008
+20	66295	6.4	1	62714 3581
+21	57982	6.4	1	54903 3079
+22	46319	6.4	1	43777 2542
+23	37687	6.4	1	35569 2118
+24	31024	6.4	1	29239 1785
+25	23169	6.4	1	21746 1423
+26	17496	6.4	1	16049 1447
+27	12766	6.4	1	11569 1197
+28	9660	6.4	1	8556 1104
+29	7024	6.4	1	6051 973
+30	4695	6.4	1	3943 752
+31	3263	6.4	1	2374 889
+32	4171	6.4	1	3065 1106
+33	2076	6.4	1	1118 958
+34	2662	6.4	1	1270 1392
+35	2828	6.4	1	1372 1456
+36	5081	6.4	1	1068 4013
+37	5614	6.4	1	2358 3256
+38	9635	6.4	1	3542 6093
+39	11242	6.4	1	4091 7151
+40	12683	6.4	1	1974 10709
+41	104146	6.4	1	69154 34992
+42	35914	6.4	1	2836 33078
+43	225953	6.4	1	20190 205763
+44	368333	6.4	1	3079 365254
+45	347095	6.4	1	777 346318
+46	156939	6.4	1	1335 155604
+47	7954668	6.4	1	365 7954303
+48	3049038	6.4	1	9316 3039722
+49	1850012	6.4	1	2879 1847133
+50	7354987	6.4	1	5392 7349595
+
+RUN STATISTICS FOR INPUT FILE: /projects/b1042/ChengSYLab/runxin/20260324/CUTRUN_positive/1_fastq/Input_1_R1.fastq.gz
+=============================================
+427967363 sequences processed in total
+
